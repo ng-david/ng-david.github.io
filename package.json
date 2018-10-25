@@ -1,0 +1,26 @@
+{
+  "name": "david-ng",
+  "version": "2.0.0",
+  "description": "David Ng's personal website.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "node server.js",
+    "build-scss": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-scss": "nodemon -e scss -x \"npm run build-scss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ng-david/ng-david.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ng-david/ng-david.github.io/issues"
+  },
+  "homepage": "https://github.com/ng-david/ng-david.github.io#readme"
+}
