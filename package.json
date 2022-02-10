@@ -4,7 +4,7 @@
   "description": "David Ng's personal website.",
   "main": "index.js",
   "dependencies": {
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.17.4"
   },
   "devDependencies": {},
